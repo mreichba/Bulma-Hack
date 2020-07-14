@@ -1,3 +1,25 @@
 @import "variables";
 @import "~bulma";
 @import "overrides";
+
+.hero {
+  background-image: url(/src/Media/worldTree.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+.hero .title {
+  color: white;
+  font-size: calc(10px + 4vh);
+  font-style: italic;
+  font-family: 'Clicker Script', cursive;
+
+}
+.hero .subtitle{
+  font-size: calc(10px + 1vh);
+  color: white;
+
+}
+nav {
+  height: 5vh;
+}
