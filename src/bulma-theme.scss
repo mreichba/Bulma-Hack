@@ -8,6 +8,7 @@
   background-position: center;
   height: 95vh;
 }
+
 .hero .title {
   color: white;
   font-size: calc(10px + 4vh);
@@ -15,11 +16,24 @@
   font-family: 'Clicker Script', cursive;
 
 }
+
 .hero .subtitle{
   font-size: calc(10px + 1vh);
   color: white;
 
 }
+
 nav {
   height: 5vh;
+}
+
+.navbar-brand .navbar-item{
+  font-size: calc(8px + 2vh);
+  font-style: italic;
+  font-weight: bold;;
+  font-family: 'Clicker Script', cursive;
+}
+
+.hero-foot .container a {
+  color: white;
 }
